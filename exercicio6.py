@@ -1,0 +1,5 @@
+taxa=float(input('Determine a Taxa da prestação:'))
+t=int(input('Determine o atraso da prestação:'))
+v=float(input('Determine o valor da prestação'))
+p=v*(v*(taxa/100)*t)
+print('O valor da prestação é de', (p))
