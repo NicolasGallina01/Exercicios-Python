@@ -1,0 +1,5 @@
+a = int(input('Informe um valor:'))
+b = int(input('Informe um segundo valor:'))
+c = int(input('Informe um terceiro valor'))
+v = sorted(a, b, c)
+print('os valores são', v)
