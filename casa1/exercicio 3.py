@@ -1,0 +1,6 @@
+hp = float(input('Qual é a altura da parede'))
+lp = float(input('Qual é a largura da parede'))
+ha = float(input('Qual é a altura do azulejo'))
+la = float(input('Qual é a largura do azulejo'))
+n = (hp * lp) / (ha*la)
+print('É necessário', n, 'para cobrir toda a parede')
